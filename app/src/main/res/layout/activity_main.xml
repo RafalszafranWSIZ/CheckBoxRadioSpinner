@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.stud.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.532"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <CheckBox
+        android:id= "@+id/checkBox"
+        android:layout_width= "wrap_content"
+        android:layout_height= "wrap_content"
+        android:text= "ELOO"
+        android:checked= "true"/>
+
+    <RadioButton
+        android:id="@+id/rbOpcja1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja 1"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="41dp"/>
+
+    <RadioButton
+        android:id="@+id/rbOpcja2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Opcja 2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="85dp"/>
+
+
+    <Spinner
+        android:id= "@+id/spinner"
+        android:layout_width= "match_parent"
+        android:layout_height= "wrap_content"/>
+
+
+
+</android.support.constraint.ConstraintLayout>
